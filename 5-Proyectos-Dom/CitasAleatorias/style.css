@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url(https://st3.depositphotos.com/25067502/32711/v/450/depositphotos_327115254-stock-illustration-library-book-shelves-cartoon-vector.jpg) no-repeat center center/ cover ;
+}
+
+.centrar-flex{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+#content-principal{
+  width: 80vh;
+  max-width: 600px;
+  min-height: 500px;
+  padding: 20px;
+  background-color: white;
+  border: 5px solid black;
+}
+#contenedor-interno{
+  width: 80vh;
+}
+
+#titulo{
+  width: 100%;
+  font-weight: bold;
+  text-align: center;
+  font-family:"Courgette",cursive;
+}
+
+#cita{
+  font-size: 3.2rem;
+  width: 100%;
+  text-align: center;
+  margin: 10px;
+}
+#autor{
+  width: 100%;
+  font-size: 2.5rem;
+  padding: 20px;
+  font-family: 'Courgette',cursive;
+}
+
+#btn-cambair-cita{
+  width: 180px;
+  height: 50px;
+  font-size: 1.5rem;
+}
