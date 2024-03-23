@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    height: 100vh;
+    background-color: chartreuse;
+}
+#content{
+    height: 50vh;
+    width: 20vw;
+    border: 3px solid wheat;
+    border-radius: 10px;
+    background-color:cadetblue;
+    transition-duration: 1.0s;
+    animation: cambiarBack 4s infinite; 
+}
+@keyframes cambiarBack {
+    10% { background-color : rgb(245, 222, 179) }
+    10% { background-color:antiquewhite; }
+    40% { background-color:bisque; } 
+    100% { background-color:burlywood; } 
+}
+
+.centrar-flex{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
